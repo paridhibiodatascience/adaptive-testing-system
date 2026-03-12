@@ -44,11 +44,11 @@ ChatGPT was used to assist in generating GRE-style questions, designing the Mong
 
 ## API Documentation
 
-GET /next-question  
-Returns the next adaptive question based on the student's ability score.
+GET /next-question
+Returns the next adaptive question based on student ability.
 
-POST /submit-answer  
-Submits a student's answer and updates the ability score.
+POST /submit-answer
+Submits the student's answer and updates ability score.
 
-GET /study-plan  
+GET /study-plan
 Generates a personalized study plan after the test ends.
